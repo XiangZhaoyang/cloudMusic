@@ -1,0 +1,117 @@
+/*index.html 页面content部分*/
+#banner{
+	width: 100%;
+	height: 336px;
+	background-color: #7FFFD4;
+}
+.bannerWrapper{
+	width: 982px;
+	margin: 0 auto;
+	position: relative;
+}
+.bannerIterms{
+	width: 730px;
+	height: 336px;
+	position: relative;
+}
+.bannerIterms a img{
+	position: absolute;
+	display: none;
+	width: 730px;
+	height: 336px;
+	border: none;
+}
+.bannerIterms .show a img{
+	display: block;
+}
+.bannerWrapper .bannerItermsSelect{
+	position: absolute;
+	width: 220px;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	margin-left: 300px;
+}
+.bannerWrapper .bannerItermsSelect li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../images/frd_dyn_sprite.png);
+	background-position: -83px -133px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.bannerWrapper .bannerItermsSelect li:hover{
+	background-position: -83px -153px;
+}
+.bannerWrapper .downloadClient{
+	position: relative;
+	width: 252px;
+	height: 336px;
+	background: url(../images/download.png);
+}
+.bannerWrapper .downloadClient a{
+	display: inline-block;
+	position: absolute;
+	width: 213px;
+	height: 56px;
+	bottom: 67px;
+	left: 20px;
+	text-indent: -9999px;
+	background: url(../images/download.png);
+	background-position: -20px -213px;
+}
+.bannerWrapper .downloadClient a:hover{
+	background-position: -1px -341px;
+}
+.bannerWrapper .downloadClient span{
+	display: block;
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	color: #8d8d8d;
+}
+.bannerWrapper .bannerLast,.bannerWrapper .bannerNext{
+	display: inline-block;
+	position: absolute;
+	width: 37px;
+	height: 55px;
+	top: 130px;
+	background: url(../images/banner.png);
+}
+.bannerWrapper .bannerLast{
+	background-position: 0 -363px;
+	left: -70px;
+}
+.bannerWrapper .bannerNext{
+	background-position: 0 -513px;
+	right: -70px;
+}
+.bannerWrapper .bannerLast:hover{
+	background-position: 0 -433px ;
+}
+.bannerWrapper .bannerNext:hover{
+	background-position: 0 -583px;
+}
+
+#discoverModule{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+#discoverModuleWrapper{
+	width: 982px;
+	margin: 0 auto;
+}
+#discoverModuleWrapper a{
+	color: #666666;
+}
+.discoverModuleLeft{
+	width: 729px;
+	border-left: 1px solid #d3d3d3;
+	padding: 20px 20px 40px 20px;
+}
+.discoverModuleLeft .discoverModuleLeftNavStyle{
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid rgb(193,13,12);
+}
