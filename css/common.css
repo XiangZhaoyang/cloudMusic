@@ -353,7 +353,7 @@ a {
 }
 .footerContent .footerContentLeft a .footerContentLeftBkIcom,.footerContent .footerContentMiddle a .footerContentLeftBkIcom{
 	display: inline-block;
-	height: 50px;
+	height: 48px;
 	width: 50px;
 	background: url(../images/sprite.png);
 	background-position: -400px -78px;
