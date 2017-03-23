@@ -72,7 +72,7 @@ $(window).load(function() {
 	$($bannerLastnode).click(function(){
 		i = i - 1;
 		if (i < 0) {
-			i = (bannerImgsLen-bannnerSelectItemLen < 0) ? bannerImgsLen: bannnerSelectItemLen;
+			i = (bannerImgsLen-bannnerSelectItemLen < 0) ? (bannerImgsLen-1): (bannnerSelectItemLen-1);
 		}
 		bannerImgAttrKv = '[' + bannerImgAttr + '=' + i + ']',
 		bannerSelectAttrKv = '[' + bannerSelectAttr + '=' + i + ']',
@@ -83,7 +83,7 @@ $(window).load(function() {
 	
 	$($bannerNextNode).click(function(){
 		i = i + 1;
-		if (i > bannerImgsLen || i >bannnerSelectItemLen) {
+		if (i >= bannerImgsLen || i >= bannnerSelectItemLen) {
 			i = 0;
 		}
 		bannerImgAttrKv = '[' + bannerImgAttr + '=' + i + ']',
